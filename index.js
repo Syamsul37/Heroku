@@ -29,6 +29,8 @@ bot.loadPlugin(cmd)
 
 bot.on('login',function(){
 	console.log("Logged In")
+        bot.chat("/register apa123")
+        bot.chat("/login apa123")
 	bot.chat("Hai Aku Bot");
 });
 
